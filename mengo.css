@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    margin:0px;
+    background-color: black;
+    color: red;
+}
+
+#s1 iframe{
+    width:700px;
+    height:700px ;
+}
+
+#menu{
+    position:fixed;
+    background-color:red;
+    width:100%;
+    top:-15px;
+}
+
+#menu li{
+    float:left;
+    margin:20px;
+    list-style-type:none;
+    
+}
+
+#menu li a{
+    text-decoration:none;
+    color: black;
+}
+
+#menu li a:hover{
+    text-decoration:underline darkblue;
+    color: blueviolet;
+    text-underline-position:under;
+}
